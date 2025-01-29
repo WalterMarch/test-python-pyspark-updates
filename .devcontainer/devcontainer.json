@@ -1,5 +1,5 @@
 {
-	"name": "test311",
+	"name": "test-python-pyspark-updates",
 
 	"build": {"dockerfile": "Dockerfile"},
 	"features": {
@@ -7,7 +7,7 @@
 		"ghcr.io/stuartleeks/dev-container-features/shell-history:0": {}
 	},
 	"mounts": [
-		"source=${localEnv:HOME}${localEnv:USERPROFILE}/.ssh,target=/home/spark/.ssh,type=bind"
+		"source=${localEnv:HOME}${localEnv:USERPROFILE}/.ssh,target=/home/vscode/.ssh,type=bind"
 	],
 	"customizations": {
 		"vscode": {
